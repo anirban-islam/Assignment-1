@@ -86,3 +86,181 @@ body{
     font-weight: 600;
    
 }
+/* Why Development Section */
+/* Development Div-1 */
+.development{
+    max-width: 1440px;
+    height: 1400px;
+    margin-top: 80px;
+
+}
+.development-div{
+    width: 946px;
+    height: 1320px;
+    margin: 74px auto;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.development-div1{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.development-div1 h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+/* Development Div-2 */
+
+.development-div2{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    justify-content: space-between;
+
+}
+.description2{
+    width: 477px;
+    height: 240px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.description2 h1{
+    font-size: 16px;
+    font-weight:600;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.description2 P{
+    font-size: 12px;
+    font-weight:400;
+}
+.description2 button{
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+    border: 1px solid rgb(13, 19, 33);
+}
+
+
+.div-img2 img{
+    width: 255px;
+    height: 215px;
+}
+.div-img2{
+    width: 477px;
+    height: 240px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    
+}
+
+/* development div-3 */
+.development-div3{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    justify-content: space-between;
+}
+.description3{
+    width: 477px;
+    height: 240px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.description3 h1{
+    font-size: 16px;
+    font-weight:600;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.description3 P{
+    font-size: 12px;
+    font-weight:400;
+}
+.description3 button{
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+    border: 1px solid rgb(13, 19, 33);
+}
+
+
+.div-img3 img{
+    width: 255px;
+    height: 215px;
+}
+.div-img3{
+    width: 477px;
+    height: 240px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    
+}
+/* Development Div-4 */
+
+.development-div4{
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    justify-content: space-between;
+
+}
+.description4{
+    width: 350px;
+    height: 240px;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.description4 h1{
+    font-size: 16px;
+    font-weight:600;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.description4 P{
+    font-size: 12px;
+    font-weight:400;
+}
+.description4 button{
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+    border: 1px solid rgb(13, 19, 33);
+}
+.div-img4 img{
+    width: 255px;
+    height: 215px;
+}
+.div-img4{
+    width: 477px;
+    height: 240px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    
+}
+/* Share Learn more */
+.description4 button a ,.description3 button a,.description2 button a{
+    text-decoration: none;
+}
