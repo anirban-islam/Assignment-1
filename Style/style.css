@@ -90,13 +90,13 @@ body{
 /* Development Div-1 */
 .development{
     max-width: 1440px;
-    height: 1400px;
+    height: 1320px;
     margin-top: 80px;
 
 }
 .development-div{
     width: 946px;
-    height: 1320px;
+    height: 1300x;
     margin: 74px auto;
     padding: 80px 97px;
     border-radius: 16px;
@@ -263,4 +263,52 @@ body{
 /* Share Learn more */
 .description4 button a ,.description3 button a,.description2 button a{
     text-decoration: none;
+}
+
+/* My inspiration Sectiom */
+.inspiration{
+    height: 700px;
+    max-width:1440px 
+}
+.inspiration-div{
+    max-width:940px;
+    height: 700px;
+    margin: 50px auto;
+    align-items:center;
+    justify-content: center;
+    /* background-color: azure; */
+}
+.inspiration-discription{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:28px;
+    justify-content: center;
+
+}
+.inspiration-discription h1{
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 800;
+    font-weight:600;
+}
+.inspiration-discription p{
+    line-height: 20px;
+    font-size: 12px;
+    font-weight:400;
+    margin-top: 10px;
+}
+
+.inspiration-video{
+    width: 940px;
+    height: 550px;
+    padding: 32px;
+    display: flex;
+}
+.inspiration-video iframe{
+    width: 900px;
+    height: 500px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
 }
