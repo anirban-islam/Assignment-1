@@ -6,14 +6,14 @@
 }
 body{
     font-family: 'Azeret Mono';
+
 }
 /* Header Text Section */
 .name-cv{
     max-width: 1440px;
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
-    height: 131px; 
+    height: 80px; 
 }
 .name-cv-div{
     display: flex;
@@ -24,12 +24,12 @@ body{
     align-items: center;
 }
 .name-cv-div h1{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 800; 
 }
 .name-cv-div button{
-    padding: 17px 24px 17px 24px;
-    font-size: 20px;
+    padding: 12px 17px 12px 17px;
+    font-size: 15px;
     background-color: ;
     line-height: 23px;
     color: rgb(13, 19, 33);
@@ -40,6 +40,7 @@ body{
     text-align: center;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
+    background-color: white;
 }
 .name-cv-div button a{
     text-decoration: none;
@@ -49,6 +50,10 @@ body{
     width:1440px ;
     height: 652px;
     background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 2px dashed #c3c3c3;
+    border-bottom: 2px dashed #c3c3c3;;
 }
 .hero .hero-bg{
     width: 998px;
@@ -471,4 +476,75 @@ body{
     /* text-decoration: none; */
     color: black;
     
+}
+
+
+/* Support Section */
+#Support{
+    max-width: 1440px;
+    margin-top:50px;
+    margin-bottom: 50px;
+   
+}
+.support-div{
+    width: 998px;
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    padding:40px;
+    line-height: 50px;
+    border-radius: 16px;
+    justify-content: center;
+    background-image:url(../assets/handshake.jpg);
+    background-position: center;
+
+    
+}
+
+.support-div input{
+    margin-top: 40px;
+    height:40px;
+    width: 400px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.support-div button{
+    padding: 9px 30px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-size: 17px;
+}
+.support-div h1{
+    color: white;
+    margin-top: 20px;
+}
+.support-div p{
+    color: white;
+}
+
+/* footer Section */
+.footer{
+    max-width: 1440px;
+}
+.footer-div{
+    width: 998px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.icon{
+
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-div span{
+    color: red;
 }
